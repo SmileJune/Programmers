@@ -21,5 +21,11 @@ class Quiz1_정수제곱근판별Test {
 	public void noX() {
 		assertEquals(-1,q.solution(26));
 	}
+	
+	@Test
+	public void check1() {
+		assertEquals(4,q.solution(1));
+	}
+	
 
 }
