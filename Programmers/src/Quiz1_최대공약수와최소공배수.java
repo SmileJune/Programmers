@@ -9,11 +9,7 @@ public class Quiz1_최대공약수와최소공배수 {
 		int GCD = 1;
 		int LCM;
 		
-		for(int i=2; i<=Math.min(n, m); i++) {
-			if(n%i==0 && m%i==0) {
-				GCD = i;
-			}
-		}
+		GCD = findGCD(n, m, GCD);
 		
 		LCM = findLCM(n, m, 1, 1);
 		 
@@ -22,6 +18,15 @@ public class Quiz1_최대공약수와최소공배수 {
 	  
 	
 	 }
+
+	private int findGCD(int n, int m, int GCD) {
+		for(int i=2; i<=Math.min(n, m); i++) {
+			if(n%i==0 && m%i==0) {
+				GCD = i;
+			}
+		}
+		return GCD;
+	}
 	 
 	 private int findLCM(int n, int m, int x, int y) {
 		 
