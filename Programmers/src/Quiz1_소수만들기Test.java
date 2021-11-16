@@ -9,7 +9,12 @@ class Quiz1_소수만들기Test {
 
 	@BeforeEach
 	void setUp() throws Exception {
-		q = new Quiz1_소수만들기();
+		try {
+			q = new Quiz1_소수만들기();
+		}
+		catch (Exception e) {
+			System.out.println("예외");
+		}
 	}
 
 	@Test
