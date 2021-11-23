@@ -1,6 +1,7 @@
+package excluded;
+
 import java.util.regex.Pattern;
 
-public class Quiz1_문자열다루기기본_2 {
 
 	public static void main(String[] args) {
 		String s = "a234";
