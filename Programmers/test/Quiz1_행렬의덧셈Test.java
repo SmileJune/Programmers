@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import Quiz1.Quiz1_행렬의덧셈;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

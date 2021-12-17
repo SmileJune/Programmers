@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import Quiz1.Quiz1_하샤드수;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

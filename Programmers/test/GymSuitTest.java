@@ -1,3 +1,4 @@
+import Quiz1.GymSuit;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

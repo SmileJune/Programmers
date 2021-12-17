@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import Quiz1.Quiz1_짝수와홀수;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import Quiz1.Quiz1_x만큼간격이있는n개의숫자;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

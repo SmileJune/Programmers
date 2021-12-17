@@ -1,3 +1,4 @@
+import Quiz1.Quiz1_CraneDrawingDollsGame;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,3 +1,4 @@
+import Quiz1.Quiz1_ArrayOfNumberCanBeDivided;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

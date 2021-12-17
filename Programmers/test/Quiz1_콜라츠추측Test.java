@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import Quiz1.Quiz1_콜라츠추측;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -28,7 +29,7 @@ class Quiz1_콜라츠추측Test {
 	void test626331() {
 		assertEquals(-1,q.solution(626331));
 	}
-//	@Test
+//	@Quiz1.Test
 //	void test7999999() {
 //		fail("Not yet implemented");
 //	}
